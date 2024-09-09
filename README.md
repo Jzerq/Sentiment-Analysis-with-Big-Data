@@ -1,8 +1,5 @@
 # Reddit Sentiment Analysis Using PySpark with Big Data
 
-This project aims to develop a sentiment analysis system for classifying SubReddit AITA posts into YTA, NTA, and Neutral categories, using MongoDB for data storage and Apache Spark for scalable data processing. <br>
-<br>A data pipeline with tokenization, stop word removal, n-grams, and TF-IDF is implemented to prepare text data for machine learning. <br>
-<br>A RandomForestClassifier was trained and evaluated using PySpark's MLlib, achieving high metric scores on validation and test datasets. <br>
-<br>Additionally, sentiment analysis was performed to extract insights into common words and phrases across contexts. <br>
-<br>Visualization tools like WordCloud and Plotly were used for enhanced interpretation of results, showcasing the practical application of big data technologies and natural language processing in social media analysis. <br>
-<br>Finally, a sentiment prediction function was deployed to test the model with new text inputs for real-world usage.
+This project develops a sentiment analysis system to classify SubReddit AITA posts into YTA, NTA, and Neutral categories. Using MongoDB for data storage and Apache Spark for scalable processing, the project involves building a data pipeline with PySpark to handle large datasets efficiently. Key steps include text preprocessing with tokenization, stop word removal, n-grams, and TF-IDF, and training classifiers using PySpark's MLlib to achieve high accuracy on validation and test datasets.<br><br>
+
+The system includes a sentiment prediction function to test the model with new inputs, showcasing practical applications. Additionally, common words and phrases are analyzed, and visualization tools like WordCloud and Plotly are used to enhance data interpretation. This project highlights the practical use of big data technologies and natural language processing in social media analysis, demonstrating the effectiveness of advanced analytics in understanding user sentiments.
